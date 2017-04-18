@@ -11,3 +11,21 @@ var birthDate = "jan 1984";
 var age = 43;
 
 var loginMessage = "welcome, " + firstName;*/
+
+//
+//var total = 10;
+//for (var x = 0; x < total; x++) {
+//	console.log(x);
+//}
+
+//var students = ["john", "jacob", "jingle", "heimer", "smith"];
+//
+//for (var index = 0; index < students.length; index++) {
+//	console.log(students[index]);
+//}
+//
+//var evenArray = 15;
+//
+//for (var i = 0; i < 15; i++) {
+//	console.log(i);
+//}
