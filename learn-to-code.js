@@ -89,14 +89,42 @@ var loginMessage = "welcome, " + firstName;*/
 // var bankOperations.push(applyForCreditCard);
 // var bankOperations.push(applyForCreditCard);
 
+function student(first, last, age) {
+  this.firstName = first;
+  this.lastName = last;
+  this.age = age;
+}
 
-var student = {
-  firstName: "john",
-  lastName: "Parker",
+
+var student0 = {
+  firstName: "jayne",
+  lastName: "Loo",
   age: 7
+  greeting: function() {
+    return "Hi, I'm " + this.firstName + " and I'm " + this.age + " years old.";
+  }
 };
 
+var student2 = {};
+student2.firstName = "zack";
+student2.lastName = "bobo";
+student2.age = 5;
+
+var student1 = new Object();
+student1.firstName = "John";
+student1.lastName = "Parker";
+
+// console.log(student.firstName);
+// console.log(student.lastName);
+// console.log(student["firstName"]);
+// console.log(student["lastName"]);
+
+var students = [];
+students.push(students0);
+studends.push(studends1);
+students.push(students2);
 
 
-console.log(student.firstName);
-console.log(student.lastName);
+for (var index = 0; index < students.length; index++) {
+  console.log(students[index]);
+}
